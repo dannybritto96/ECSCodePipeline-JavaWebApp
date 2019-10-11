@@ -56,7 +56,11 @@ Note: Privileged Environment comes with Docker installed.
 
 CodeDeploy Specifications
 
-
+Spec | Value
+--- | ---
+Compute Platform | Amazon ECS
+Deployment Type | Blue/Green
+Compute Platform | Amazon ECS
 
 ![CodeDeploy Success](https://raw.githubusercontent.com/dannybritto96/ECSCodePipeline-JavaWebApp/master/CodeDeploy.PNG)
 
