@@ -1,0 +1,24 @@
+{
+    "executionRoleArn": "arn:aws:iam::176202699669:role/ecsTaskExecutionPolicy",
+    "containerDefinitions": [
+        {
+            "name": "helloworld-sample",
+            "image": "176202699669.dkr.ecr.us-east-1.amazonaws.com/app1:latest",
+            "essential": true,
+            "portMappings": [
+                {
+                    "hostPort": 8080,
+                    "protocol": "tcp",
+                    "containerPort": 8080
+                }
+            ]
+        }
+    ],
+    "requiresCompatibilities": [
+        "FARGATE"
+    ],
+    "networkMode": "awsvpc",
+    "cpu": "256",
+    "memory": "512",
+    "family": "HelloWorld-Sample"
+}

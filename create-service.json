@@ -1,0 +1,29 @@
+{
+    "taskDefinition": "HelloWorld-Sample",
+    "cluster": "app1cluster",
+    "loadBalancers": [
+        {
+            "targetGroupArn": "",
+            "containerName": "helloworld-sample",
+            "containerPort": 8080
+        }
+    ],
+    "desiredCount":1,
+    "launchType": "FARGATE",
+    "schedulingStrategy": "REPLICA",
+    "deploymentController": {
+        "type": "CODE_DEPLOY"
+    },
+    "networkConfiguration": {
+        "awsvpcConfiguration": {
+            "subnets": [
+                "subnet-1",
+                "subnet-2"
+            ],
+            "securityGroups": [
+                "sg-0"
+            ],
+            "assignPublicIp": "ENABLED"
+        }
+    }
+}
