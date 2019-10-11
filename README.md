@@ -43,11 +43,11 @@ Be sure to update Target Group ARN, AWS VPC Configuration block.
 ## CodeBuild
 
 Environment Specifications for CodeBuild
-|Spec|Value  |
+| Spec | Value  |
 |---|---|
-|Image|aws/codebuild/standard:2.0|
-|Environment Type|Linux|
-|Privileged|True|
+| Image| aws/codebuild/standard:2.0 |
+| Environment Type | Linux |
+| Privileged | True |
 
 Note: Privileged Environment comes with Docker installed.
 
@@ -56,9 +56,9 @@ Note: Privileged Environment comes with Docker installed.
 CodeDeploy Specifications
 |||
 |---|---|
-|Compute Platform|Amazon ECS  |
-|Deployment Type|Blue/Green|
-|Compute Platform|Amazon ECS|
+| Compute Platform | Amazon ECS  |
+| Deployment Type | Blue/Green |
+| Compute Platform | Amazon ECS |
 
 
 ![CodeDeploy Success](https://raw.githubusercontent.com/dannybritto96/ECSCodePipeline-JavaWebApp/master/CodeDeploy.PNG)
