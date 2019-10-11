@@ -54,10 +54,10 @@ Note: Privileged Environment comes with Docker installed.
 ## CodeDeploy
 
 CodeDeploy Specifications
-| | |
-| --- | --- |
-| Compute Platform | Amazon ECS  |
-| Deployment Type | Blue/Green |
+|                  |            |
+| ---------------- | ---------- |
+| Compute Platform | Amazon ECS |
+| Deployment Type  | Blue/Green |
 | Compute Platform | Amazon ECS |
 
 
